@@ -184,7 +184,7 @@ figure {
   margin-bottom: 1.5rem;
   background-color: #292929;
   background-image: url('../images/shape-tinia-bottom_1.png'), -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.39)), color-stop(35%, hsla(0, 0%, 100%, 0))), url('../images/wZNxfUsZqSV0eZjA.jpg');
-  background-image: url('../images/shape-tinia-bottom_1.png'), linear-gradient(0deg, rgba(0, 0, 0, 0.39), hsla(0, 0%, 100%, 0) 35%), url('../images/wZNxfUsZqSV0eZjA.jpg');
+  background-image: url('../images/shape-tinia-bottom_1.png'), linear-gradient(0deg, rgba(0, 0, 0, 0.39), hsla(0, 0%, 100%, 0) 35%), url('../images/wZNxfUsZqSV0aeZjA.jpg');
   background-position: 50% 100%, 0px 0px, 50% 50%;
   background-size: contain, auto, cover;
   background-repeat: no-repeat, repeat, no-repeat;
@@ -241,7 +241,7 @@ figure {
   -ms-flex-align: end;
   align-items: flex-end;
   background-image: url('../images/shape-tinia-bottom_1.png'), -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.73)), to(hsla(0, 0%, 100%, 0))), url('../images/wZNxfUsZqSV0eZjA.jpg');
-  background-image: url('../images/shape-tinia-bottom_1.png'), linear-gradient(0deg, rgba(0, 0, 0, 0.73), hsla(0, 0%, 100%, 0)), url('../images/wZNxfUsZqSV0eZjA.jpg');
+  background-image: url('../images/shape-tinia-bottom_1.png'), linear-gradient(0deg, rgba(0, 0, 0, 0.73), hsla(0, 0%, 100%, 0)), url('../images/Absa-logo.png');
   background-position: 50% 100%, 0px 0px, 50% 50%;
   background-size: auto, auto, cover;
   background-repeat: repeat-x, repeat, no-repeat;
