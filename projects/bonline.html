@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html data-wf-page="5aa58b90f3d89b0001238dce" data-wf-site="5aa58b90f3d89b0001238dcd" lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>An Approach to Digitization in Education</title>
+  <meta content="An attempt to push forward future-proof education" name="description">
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <meta content="Webflow" name="generator">
+  <link href="../css/normalize.css" rel="stylesheet" type="text/css">
+  <link href="../css/webflow.css" rel="stylesheet" type="text/css">
+  <link href="../css/mkhungela-project-7f3b24.webflow.css" rel="stylesheet" type="text/css">
+  <!-- [if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" type="text/javascript"></script><![endif] -->
+  <script type="text/javascript">!function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);</script>
+  <link href="../images/favicon.png" rel="shortcut icon" type="image/x-icon">
+  <link href="../images/webclip.png" rel="apple-touch-icon">
+  <style>
+  /* FONT LEGIBILITY */
+  h1, h2, h3, h4, h5, h6, p, a, li, span {
+    font-variant-numeric: oldstyle-nums;
+    font-feature-settings: "onum";
+  }
+  * {
+   text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale; 
+  }
+/* LINK HOVER */
+.marker,
+.w-richtext a,
+.w-richtext p a{
+  	-webkit-transition: all .15s ease-out;
+  	-moz-transition: all .15s ease-out;
+  	-ms-transition: all .15s ease-out;
+  	-o-transition: all .15s ease-out;
+  	transition: all .15s ease-out;
+  	text-decoration: none;
+	background-image: -webkit-linear-gradient(transparent 50%, #fcf113 0%);
+	background-image: -moz-linear-gradient(transparent 50%, #fcf113 0%);
+	background-image: -o-linear-gradient(transparent 50%, #fcf113 0%);
+	background-image: linear-gradient(transparent 50%, #fcf113 0%);
+  	background-size: 0 100%;
+  	background-repeat: no-repeat;
+  	border-bottom: 1px solid #33393f;
+	}
+.marker:hover,
+.active-link,
+.w-richtext a:hover,
+.w-richtext p a:hover{
+    background-size: 100% 100%;
+  	border-bottom: 1px solid #fcf113;
+	}
+@media screen and (min-width:1440px){
+	img.image {
+  		max-width:1440px;
+  		}
+}
+/* Hide Nav when Scrolling */
+  #nav.nav-up {
+   	top:-70px; 
+  }
+@media screen and (max-width:480px){
+	#nav.nav-up {
+   		bottom:-70px; 
+  	}
+  .w-webflow-badge {
+    	top: 12px !important;
+    	bottom: auto !important;
+	}
+}
+/* Making sure navigation stays behind lightbox overlay */
+  .w-lightbox-backdrop{
+   	z-index:9999; 
+  }
+.noscroll {
+	overflow:hidden;
+}
+#mobile-nav.open .navbar:first-child {
+	-webkit-transform:translateY(9px) rotate(225deg);
+  transform:translateY(9px) rotate(225deg);
+}
+#mobile-nav.open .navbar:nth-child(2) {
+	-webkit-transform:translateX(50px);
+  transform:translateX(50px);
+  opacity:0;
+}
+#mobile-nav.open .navbar:last-child {
+	-webkit-transform:translateY(-9px) rotate(-45deg);
+  transform:translateY(-9px) rotate(-45deg);
+}
+/* BADGE MODIFICATIONS */
+/*.w-webflow-badge span {
+    position: absolute;
+    right: 3px;
+    top: 6px;
+    color: #222;
+    font-size: 14px;
+	}*/
+</style>
+  <style>
+.w-slider-nav {
+	text-align: left;
+}
+.w-slider-dot.w-active,
+.w-slider-dot.w-active:hover {
+    background-color: #1E262B;
+}
+.w-slider-dot {
+	background-color: transparent;
+  width:16px;
+  height:16px;
+  border:2px solid #1E262B;
+}
+.w-slider-dot:hover {
+	background-color: #D8D8D8;
+}
+</style>
+</head>
+<body>
+  <nav id="nav" class="navigation">
+    <div class="fluid-wrapper flex center">
+      <div class="div-block-6">
+        <a href="../index.html" class="link-block w-inline-block">
+          <div class="link-4"> Mkhungela</div>
+          <div class="text-block-11">UX/UI Designer</div>
+        </a>
+      </div>
+      <div id="menu" data-w-id="c54ab4c5-743e-c970-03c9-72849b145443" class="menu">
+        <a href="../index.html#work" data-w-id="c54ab4c5-743e-c970-03c9-72849b145444" class="nav-link marker">Work</a>
+        <a href="mailto:mkhungela.l@gmail.com" target="_blank" data-w-id="c54ab4c5-743e-c970-03c9-72849b145448" class="nav-link marker">mkhungela.l@gmail.com</a>
+      </div>
+      <div class="mobile">
+        <div id="mobile-nav" data-w-id="c54ab4c5-743e-c970-03c9-72849b14544b" class="mobile-menu">
+          <div class="div-block-5">
+            <div class="navbar"></div>
+            <div class="navbar"></div>
+            <div class="navbar"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <div class="opener-image ggc">
+    <div class="div-block-15">
+      <h1 class="project-title">The Scene Cinema App</h1>
+      <div class="project-subtitle">UI/UX Design Case Study </div>
+    </div>
+  </div>
+  <div class="div-block-16">
+    <div class="row">
+      <div class="attribute">Client</div>
+      <div>bOnline</div>
+    </div>
+    <div class="row">
+      <div class="attribute">Sector</div>
+      <div>Digital Booking</div>
+    </div>
+    <div class="row">
+      <div class="attribute">Challenge</div>
+      <div>The current manual ticket booking process means that
+        customers have to interact with a staff member to purchase tickets. The manual process
+        currently only allows purchasing movie tickets on the day with no pre-booking. The staff
+        member uses a sheet of paper with the cinema seating arrangement to show the customer
+        which seats are available and crosses out a seat after payment is taken.</div>
+    </div>
+    <div class="row">
+      <div class="attribute">My Role</div>
+      <div>Research, Wireframing, Interface Design</div>
+    </div>
+  </div>
+  <div class="site-wrapper">
+    <div class="rich-kid w-richtext">
+      <!-- <h4>Research</h4> -->
+      <h2>How I Started</h2>
+      <p>Since this is a solo project I was looking for everyday problems and challenges that people face on a daily basis. One day when I was at the cinema I realised how frustrating it can be waiting in line to purchase a movie ticket, especially since the ticket machines were having issues. 
+
+        I began to think about the everyday customer who just wants to arrive get their ticket, pick a seat, their food and go into the screen showing. I imagined the frustrations they would face waiting in line for people, who were indecisive. I thought "how would I correct this inconvenience?"</p>
+        <h2>What is better</h2>
+        <p>I created an app that provides you with the opportunity to not only book your movie, seating and food in advance, but also gives you the nearest cinema in your area?</p>
+      <img src="../images/6mTWNWrdBRjn91yC.png" width="1062" srcset="../images/6mTWNWrdBRjn91yC-p-500.png 500w, ../images/6mTWNWrdBRjn91yC-p-800.png 800w, ../images/6mTWNWrdBRjn91yC.png 2124w" sizes="(max-width: 2360px) 90vw, 2124px" alt="" class="image">
+
+      </div>
+    </div>
+    
+    <div class="curly-section ggc-blue">
+      <div class="rich-kid w-richtext">
+        <h2>Problems, Goals And Solutions To Solve</h2>
+        <h5>The primary goal of The Scene Cinema App?</h5>
+        <p>- Create an app where we people can sign up and book movie tickets online. </p>
+      </div>
+    </div>
+    <div class="rich-kid w-richtext">
+      <h2>What problems do I want to solve here?      </h2>
+      <ul>
+        <li> Waiting line is time consuming, nobody likes it.          </li>
+        <li> Indecisive people can be an annoyance to other customers.          </li>
+        <li> Sometimes the ticket machines have maintenance issues.          </li>
+        <li> Not enough staff for customers to be served in a timely manner.          </li>
+        <li> Rather eat before the movie starts.          </li>
+      </ul>
+
+    </div>
+    <div class="rich-kid w-richtext">
+      <h3>The Solution</h3>
+    <p>Create an App where people can book movie tickets, view listings and order food. The App will be called Scene Cinema. It should be easy to use and intuitive. If it seems to slow, clumsy and or complicated this defeats the purpose.</p>
+    </div>
+    <div class="curly-section ggc-blue">
+      <div class="rich-kid w-richtext">
+        <h2>Competitors and User
+          Requirements</h2>
+          <h5>My competitors
+          </h5>
+        <p>I started by researching competitors to see what they're doing. In this case it was <b> Cinema, Sterinkor and NuMetro.</b>  The things I'm looking for here, is what I like and dislike about their app flow/content and how I can incorporate what they do and possibly make The Scene Cinema App much better than my competitors.</p>
+      </div>
+      <div class="lightbox-wrapper">
+          <script type="application/json" class="w-json">{
+  "items": [
+    {
+      "width": 1156,
+      "caption": "",
+      "height": 2160,
+      "fileName": "support-page-v1.jpg",
+      "origFileName": "support-page-v1.jpg",
+      "url": "../images/support-page-v1.jpg",
+      "_id": "5b3bd7a5e70b7745c9738f26",
+      "type": "image",
+      "fileSize": 228289
+    }
+  ],
+  "group": "ggc-drafts"
+}</script>
+        </a>
+          <script type="application/json" class="w-json">{
+  "items": [
+    {
+      "type": "image",
+      "_id": "5b3bd922699a1a828713f288",
+      "fileName": "support-page-v2.jpg",
+      "origFileName": "support-page-v2.jpg",
+      "width": 1156,
+      "height": 2160,
+      "fileSize": 226384,
+      "url": "../images/support-page-v2.jpg"
+    }
+  ],
+  "group": "ggc-drafts"
+}</script>
+        </a>
+          <script type="application/json" class="w-json">{
+  "items": [
+    {
+      "type": "image",
+      "_id": "5b3bd92ce70b77d4167390f9",
+      "fileName": "support-page-v3.jpg",
+      "origFileName": "support-page-v3.jpg",
+      "width": 1200,
+      "height": 1659,
+      "fileSize": 186142,
+      "url": "../images/support-page-v3.jpg"
+    }
+  ],
+  "group": "ggc-drafts"
+}</script>
+        </a>
+      </div>
+      <div class="rich-kid w-richtext">
+      <div class="rich-kid w-richtext">
+      <div class="rich-kid w-richtext">
+       
+      </div>
+    </div>
+
+    <div class="rich-kid w-richtext">
+      <h2>User Research</h2>
+<p>To understand the users better, I have to think from their point of view and keep the content overwhelming but avoid distractions which often is the reason people back out. The experiences and challenges faced by users are: their behaviour/their focus during interacting, payment process, booking experience, usability and ease to understand.</p>
+    </div>
+
+    <div class="rich-kid w-richtext">
+      <h2>User Stories</h2>
+      <p>In order to insure success I created some requirements that the Scene Cinema App must fulfill in order create a happy customer and convergence:</p>
+      <ul>
+        <li>As a user I should be able to easily book a ticket/s online.        </li>
+        <li>I should see a list of movies and trailers that are available to watch.        </li>
+        <li>I should be able to see the food menu and what size and quantity to order.        </li>
+        <li>As a repeat customer, I should have the option to select my favorite meal.        </li>
+        <li>As a user I should be able to book the seats that are available.        </li>
+        <li>As a user I should be able to select what cinema location to see the movie in.        </li>
+        <li>As a user I should be able to create an account to and save food order history.        </li>
+        <li>See currently showing movies and be able to login/sign up.        </li>
+        <li>Have the option to book a time on when to have my food ready. I may not want to eat during the movie.</li>
+        <li>I should be able to pay using Paypal or other payment gateways options        </li>
+      </ul>
+    </div>
+
+        
+    <div class="rich-kid w-richtext">
+      <h2>Persona Mapping      </h2>
+<p>People who prioritised specific available free time, a convenient location, or a preference in their movie choices can be grouped based on the interviews and surveys I sent out</p>
+    </div>
+    <img src="../images/personaa.png" srcset="../images/personaa-p-500.png 500w, ../images/personaa-p-800.png 800w, ../images/personaa.png 910w" sizes="90vw" alt="" class="image floating">
+    
+
+    <div class="rich-kid w-richtext">
+      <h2>Empathy Mapping      </h2>
+    </div>
+    <img src="../images/empathy.png" srcset="../images/empathy-p-500.png 500w, ../images/empathy-p-800.png 800w, ../images/empathy.png 910w" sizes="90vw" alt="" class="image floating">
+    
+    <div class="rich-kid w-richtext">
+      <h2>Site Map      </h2>
+      <p>The site map indicates how each page should interact and then be structured in relation to one another. The app consists five primary pages: Home, User Profile, Cinema, Movie Page, and Payment Page</p>
+
+    </div>
+    <img src="../images/sitemapp.png" srcset="../images/sitemapp-p-500.png 500w, ../images/sitemapp-p-800.png 800w, ../images/sitemapp.png 910w" sizes="90vw" alt="" class="image floating">
+    
+    <div class="rich-kid w-richtext">
+      <h3>Demographics</h3>
+      <p>Universal and 12+ </p>
+    </div>
+    <div class="rich-kid w-richtext">
+      <h3>App impression when you see it for the first time?      </h3>
+      <p>Simple, Clean, Cool and Visual.      </p>
+    </div>
+    <div class="rich-kid w-richtext">
+      <h3>Information on Scene Cinema App?      </h3>
+      <p>What information will users be looking for?      </p>
+      <ul>
+        <li>Movie listings        </li>
+        <li>Booking and Times        </li>
+        <li>Sign in/Log in         </li>
+        <li>Food</li>
+        <li>Select my cinema        </li>
+        <li>Search input        </li>
+        <li>Favourites</li>
+        <li>Seating</li>
+      </ul>
+    </div>
+    <div class="rich-kid w-richtext">
+      <h2>Mood Board And Sketching      </h2>
+      <h5>Mood Board      </h5>
+      <p>I usually start with a mood board before any sketching. It consists of various websites and apps that I'll collect from my competitors, Pinterest, Dribbble and Google Images
+
+        The purpose of this is just to get some ideas on what fonts to use, colours, layout ideas, interactivity and overall mood. This is similar to me researching about competitors.
+       </p>
+    </div>
+    
+    <div class="rich-kid w-richtext">
+      <h2>Sketching</h2>
+      <p>‍After collecting a sufficient amount of inspiration from the mood board, I then go into the low-fidelity sketching phase. This helped me get some ideas down, what ideas to keep and improve upon. I looked into the method of how my competitors go about booking a movie and then I incorporate it into my sketches for better approach, mix & matching whatever ideas I get from the Mood Board.
+
+        It's important to note that I always have the User Stories handy with me. This helps me to figure out if what I'm sketching, falls inline with those requirements.</p>
+     
+    </div>
+    <img src="../images/proto.png" srcset="../images/proto-p-500.png 500w, ../images/proto-p-800.png 800w, ../images/proto.png 910w" sizes="90vw" alt="" class="image floating">
+    
+    <div class="rich-kid w-richtext">
+      <h2>Wireframes      </h2>
+      <p>After being satisfied with the low-fidelity sketches, I created mid-fidelity for a more accurate representation of the final design. The tool I used is called Balsamiq Mockups.
+
+        This is useful because it helped me to decide to move forward or go back to low-fidelity again.
+        The main page for example, I wanted the user to see what movies was the most popular and then be able to go to the movie listings, rather than have them register first</p>
+
+    </div><img src="../images/Fi0vNWWdJNtqKi8c.png" srcset="../images/Fi0vNWWdJNtqKi8c-p-500.png 500w, ../images/Fi0vNWWdJNtqKi8c-p-800.png 800w, ../images/Fi0vNWWdJNtqKi8c.png 910w" sizes="90vw" alt="" class="image floating">
+    
+    <div class="rich-kid w-richtext">
+      <h2>More on Wireframes      </h2>
+      <p>This is all the wireframes created. During the process I add in some indications of interactivity of what button does what and where it leads to. 
+      </br>
+      <b>        Prototyping Phase
+      </b>
+        
+        In order to test if the flow works, Balsamiq has a simple prototyping function that connects you to each wireframe by linking a specific button to the next desired page. Based on the User Stories it seemed to work quite well. 
+  </p>
+        
+    </div><img src="../images/cUVfefXBlr9H2L2F.png" srcset="../images/cUVfefXBlr9H2L2F-p-500.png 500w, ../images/cUVfefXBlr9H2L2F-p-800.png 800w, ../images/cUVfefXBlr9H2L2F.png 910w" sizes="90vw" alt="" class="image floating">
+    
+  
+    <div class="rich-kid w-richtext">
+      <h2>Colors      </h2>
+<p>Choosing colours is key in design, because they can significantly affect the overall design positively or negatively. Psychologically colours have an emotional impact on us and as mentioned before, I wanted something cool and visual, I didn't want to go with blue as a default choice. 
+
+  Using my Mood Board I looked for the colours that I don't see all the time.
+  
+  One of the designs I saw had utilised purple. It's known to not only be associated with royalty, but also can be wise, creative and imaginative. That's why I chose it as a primary colour, I believed it would be a nice compliment to the cool and visual feel I was going for.</p>  
+  <h5>Colour Palette  </h5>     
+  <p>I used the website, Coolors.co to experiment with different shades of my primary and other supporting colours.
+
+    Purple is pretty dark and I wasn't going for a dark themed app, so I went for a lighter shade (#734b6d) and used that to create a subtle gradient. Also coupling that with a white background was going the keep the visual aspect alive.</p> 
+    </div><img src="../images/ewVJfv5FE77bBlvv.png" srcset="../images/ewVJfv5FE77bBlvv-p-500.png 500w, ../images/ewVJfv5FE77bBlvv-p-800.png 800w, ../images/ewVJfv5FE77bBlvv.png 910w" sizes="90vw" alt="" class="image floating">
+    
+    <div class="rich-kid w-richtext">
+      <h2>UI Design For The Scene Cinema App      </h2>
+<p>Once I tested out all usability flow, I started designing the final screens in Figma.</p>
+  <h5>Layout  </h5>     
+  <p>
+    Previously I mentioned that I wanted to couple the subtle gradient with a white background as I wasn't going for a dark themed app. I got this idea to do a wavy background with faded image, from one of the Mood Board designs. It had a sharp angular shape with an image, so I experimented and made it work. 
+    
+    It was tricky however since there were some info which didn't look readable on the dark gradient background. However a subtle drop shadow fixed that.</p>
+
+  </div><img src="../images/73LZdkak9pz8vtX3.png" srcset="../images/73LZdkak9pz8vtX3-p-500.png 500w, ../images/73LZdkak9pz8vtX3-p-800.png 800w, ../images/73LZdkak9pz8vtX3.png 910w" sizes="90vw" alt="" class="image floating">
+    
+  <div class="rich-kid w-richtext">
+    <h2>High Fidelity Prototype      </h2>
+<p>Below is a Figma based prototype of the app.</p>
+<a href="https://www.figma.com/proto/YuqpHsDvTb2feYfG0PJo5t/App?node-id=41%3A32&scaling=scale-down&page-id=0%3A1&starting-point-node-id=41%3A32" target="_blank" class="link-7">Prototype</a>
+
+<h5>What I felt during this project?</h5>     
+<p>This was is my simplest project to I ever done. It was just overwhelming as there many ideas or task I wanted to do but time wasn't on my side</p>
+
+<h5>What I learned?</h5>     
+<p>I learned how important it is to really try to understand design from a users perspective, otherwise you design for all the wrong reasons. This essentially leads to a waste of time, an unfulfilling product and an unhappy customer, which is one of my fears.</p>
+
+
+<h5>Challenges I encountered</h5>     
+<p>The colour scheme without a doubt was most challenging. However thanks to the Mood Board which I didn't attach it to this case study and Competitive Research, it gave me a good starting point on how to approach the visual aspect and feeling I was going for.</p>
+
+<h5>Things I should Have Done Better</h5>     
+<ul>
+  <li>I have discovered a website called CanvasFlip, that allows a recorded demonstration of a prototype. Once I've learned how to use it, it will be apart of my process and I'll be sure to add it in future case studies</li>
+  <li>User Testing. This is something that I wanted to do but wasn't sure how to go about it. My UX/UI Designer mentor (Kim), advised me to check out a website, www.usertesting.com in order achieve this. So this will integrated into my process, as I'm sure it will make my designs and my understanding of users more effective.</li>
+  <li>In future showcase how I came to the decision for certain designs and show my reasoning.</li>
+</ul>
+
+</div>
+<p class="des" style="text-align: center;">Thanks for such straight forward task. <a class="ttext" href="../images/tenor3.gif" target="_blank">Here's a reward for this task.</a>  
+  </div>
+
+  <div data-w-id="24177d30-2013-315f-6098-7632dfbc8d05" class="work-with-me">
+    <div class="div-block-19">
+      <div class="text-block-13">Let‘s w<strong>🚀</strong>rk<br>t<strong>_</strong>g_th_r<br></div>
+      <div class="text-block-15 hide">I‘m Open For Projects</div>
+      <a href="mailto:mkhungela.l@gmail.com" target="_blank" class="link-7">mkhungela.l@gmail.com</a>
+    </div>
+  </div>
+  <div class="footer">
+    <div class="footer-inner">
+      <div class="div-block-9">
+        <a href="#" class="footer-link marker">mkhungela.l@gmail.com</a>
+        <a href="https://www.linkedin.com/in/lulamile-mkhungela/" target="_blank" class="footers-link marker">LinkedIn</a>
+      </div>
+      <div class="div-block-8">
+        <a href="mailto:mkhungela.l@gmail.com" target="_blank" class="footer-link marker">mkhungela.l@gmail.com</a>
+      </div>
+      <div class="footers-link" style="font-size: 16px; font-weight: 12px;
+">Copyright © All rights reserved | Designed and Developed With ❤️ By Lulamile Mkhungela<a href="https://lulamilemkhungela.github.io/portfolio.github.io/" target="_blank" class="marker"></a>
+    </div>
+      <div class="div-block-8">
+        <a href="#" class="footer-link marker">Privacy</a>
+        <a href="#" class="footer-link marker">Imprint</a>
+      </div>
+    </div>
+  </div>
+  <script src="../../d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8b5e9.js?site=5aa58b90f3d89b0001238dcd" type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+  <script src="../js/webflow.js" type="text/javascript"></script>
+  <!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
+  <script>
+$(document).ready(function() {
+// Hide Webflow Badge
+	$('.w-webflow-badge').addClass("wf").removeClass('w-webflow-badge');
+	$('.wf').hide();
+/*$('.w-webflow-badge').attr("href", "https://webflow.com/?rfsn=1458105.de8f6");
+$('<span>*</span>').appendTo('.w-webflow-badge');*/
+/*var stickyNavTop = $('#nav').offset().top;
+	var stickyNav = function(){
+	var scrollTop = $(window).scrollTop();
+  	$('.navigation').toggleClass('nav-relative', scrollTop > stickyNavTop);
+};
+if ($(window).width() > 479) {
+	stickyNav();
+	$(window).on('scroll resize', function() {
+  		stickyNav();
+	});
+}
+*/
+if($(window).width() > 479){
+// Hide Header on scroll down
+  var didScroll;
+  var lastScrollTop = 0;
+  var delta = 5;
+  var navbarHeight = $('#nav').outerHeight();
+  $(window).scroll(function(event){
+      didScroll = true;
+  });
+  setInterval(function() {
+      if (didScroll) {
+          hasScrolled();
+          didScroll = false;
+      }
+  }, 250);
+  function hasScrolled() {
+      var st = $(this).scrollTop();
+      // Make sure they scroll more than delta
+      if(Math.abs(lastScrollTop - st) <= delta)
+          return;
+      // If they scrolled down and are past the navbar, add class .nav-up.
+      if (st > lastScrollTop && st > navbarHeight){
+          // Scroll Down
+          $('#nav').addClass('nav-up');
+      } else {
+          // Scroll Up
+          if(st + $(window).height() < $(document).height()) {
+              $('#nav').removeClass('nav-up');
+          }
+      }
+      lastScrollTop = st;
+  }
+}
+  //mobile nav open close
+if ($(window).width() < 480) {
+    $('#mobile-nav, .nav-link, .mobopen').on('click', function(){
+    	//$('.logo-link').toggleClass("mobopen");
+      	//$('#menu').toggleClass("flex");
+        $('#mobile-nav').toggleClass("open");
+        $('body').toggleClass("noscroll");
+    });
+}
+});
+</script>
+</body>
+</html>
